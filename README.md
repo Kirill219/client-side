@@ -1,1 +1,2 @@
-# client-side-automation-framework-develop
+# client-side-automation-framework
+TAF for client-side automation
