@@ -1,0 +1,15 @@
+# Prerequisites
+*.d
+
+/.vs/*
+*/*/bin/*
+*/*/obj/*
+*.DotSettings
+*.feature.cs
+
+/*.user
+/TestResults/Unnamed project__2019-09-16T133908.html
+
+*.user
+/*/TestResults
+*.txt
