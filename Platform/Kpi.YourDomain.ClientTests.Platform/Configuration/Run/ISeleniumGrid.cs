@@ -1,4 +1,4 @@
-﻿namespace Kpi.YourDomain.ClientTests.Platform.Configuration.Run
+﻿namespace Kpi.UkrNet.ClientTests.Platform.Configuration.Run
 {
     public interface ISeleniumGrid : IHostUri
     {

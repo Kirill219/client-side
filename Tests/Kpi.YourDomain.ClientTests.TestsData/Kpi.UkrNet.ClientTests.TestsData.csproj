@@ -1,9 +1,13 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netstandard2.1</TargetFramework>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <IsPackable>false</IsPackable>
+    <OutputType>Library</OutputType>
     <LangVersion>8</LangVersion>
-  </PropertyGroup>
+    <RunAnalyzersDuringLiveAnalysis>true</RunAnalyzersDuringLiveAnalysis>
+    <RunAnalyzersDuringBuild>true</RunAnalyzersDuringBuild>
+    </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
     <DefineConstants>TRACE;DEBUG</DefineConstants>
@@ -28,6 +32,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <PackageReference Include="Bogus" Version="33.0.2" />
     <PackageReference Include="StyleCop.Analyzers" Version="1.1.118">
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
@@ -35,8 +40,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\Model\Kpi.YourDomain.ClientTests.Model.Platform\Kpi.YourDomain.ClientTests.Model.Platform.csproj" />
-    <ProjectReference Include="..\..\Platform\Kpi.YourDomain.ClientTests.Platform\Kpi.YourDomain.ClientTests.Platform.csproj" />
+    <ProjectReference Include="..\..\Model\Kpi.YourDomain.ClientTests.Model.Domain\Kpi.UkrNet.ClientTests.Model.Domain.csproj" />
   </ItemGroup>
 
 </Project>

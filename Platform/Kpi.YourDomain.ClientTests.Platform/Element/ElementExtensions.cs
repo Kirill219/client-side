@@ -1,10 +1,10 @@
-﻿using Kpi.YourDomain.ClientTests.Model.Platform.Element;
-using Kpi.YourDomain.ClientTests.Platform.Driver;
+﻿using Kpi.UkrNet.ClientTests.Model.Platform.Element;
+using Kpi.UkrNet.ClientTests.Platform.Driver;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Interactions;
-using IWebDriver = Kpi.YourDomain.ClientTests.Model.Platform.Drivers.IWebDriver;
+using IWebDriver = Kpi.UkrNet.ClientTests.Model.Platform.Drivers.IWebDriver;
 
-namespace Kpi.YourDomain.ClientTests.Platform.Element
+namespace Kpi.UkrNet.ClientTests.Platform.Element
 {
     public static class ElementExtensions
     {

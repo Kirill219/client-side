@@ -1,12 +1,12 @@
 ﻿using System;
 using System.Linq;
-using Kpi.YourDomain.ClientTests.Model.Platform.Drivers;
-using Kpi.YourDomain.ClientTests.Model.Platform.Locator;
-using Kpi.YourDomain.ClientTests.Platform.Page;
-using Kpi.YourDomain.ClientTests.Platform.WebElements;
+using Kpi.UkrNet.ClientTests.Model.Platform.Drivers;
+using Kpi.UkrNet.ClientTests.Model.Platform.Locator;
+using Kpi.UkrNet.ClientTests.Platform.Page;
+using Kpi.UkrNet.ClientTests.Platform.WebElements;
 using OpenQA.Selenium.Support.PageObjects;
 
-namespace Kpi.YourDomain.ClientTests.UI.Login
+namespace Kpi.UkrNet.ClientTests.UI.Login
 {
     public class LoginPage : WebPage
     {

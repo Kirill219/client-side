@@ -1,7 +1,7 @@
 ﻿using Newtonsoft.Json;
 using RestSharp;
 
-namespace Kpi.YourDomain.ClientTests.Platform.Communication.Http
+namespace Kpi.UkrNet.ClientTests.Platform.Communication.Http
 {
     public static class RestSharpExtensions
     {

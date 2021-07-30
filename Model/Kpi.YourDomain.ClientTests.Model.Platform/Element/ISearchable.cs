@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace Kpi.YourDomain.ClientTests.Model.Platform.Element
+namespace Kpi.UkrNet.ClientTests.Model.Platform.Element
 {
     public interface ISearchable
     {

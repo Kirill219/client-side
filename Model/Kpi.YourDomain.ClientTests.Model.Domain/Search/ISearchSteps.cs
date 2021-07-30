@@ -1,4 +1,4 @@
-﻿namespace Kpi.YourDomain.ClientTests.Model.Domain.Search
+﻿namespace Kpi.UkrNet.ClientTests.Model.Domain.Search
 {
     public interface ISearchSteps
     {

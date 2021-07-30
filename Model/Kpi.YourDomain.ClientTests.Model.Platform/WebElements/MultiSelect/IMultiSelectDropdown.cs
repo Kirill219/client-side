@@ -1,4 +1,4 @@
-﻿namespace Kpi.YourDomain.ClientTests.Model.Platform.WebElements.MultiSelect
+﻿namespace Kpi.UkrNet.ClientTests.Model.Platform.WebElements.MultiSelect
 {
     public interface IMultiSelectDropdown
     {

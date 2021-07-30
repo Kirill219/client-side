@@ -62,9 +62,9 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\Model\Kpi.YourDomain.ClientTests.Model.Domain\Kpi.YourDomain.ClientTests.Model.Domain.csproj" />
-    <ProjectReference Include="..\Kpi.YourDomain.ClientTests.Bootstrap\Kpi.YourDomain.ClientTests.Bootstrap.csproj" />
-    <ProjectReference Include="..\Kpi.YourDomain.ClientTests.TestsData\Kpi.YourDomain.ClientTests.TestsData.csproj" />
+    <ProjectReference Include="..\..\Model\Kpi.YourDomain.ClientTests.Model.Domain\Kpi.UkrNet.ClientTests.Model.Domain.csproj" />
+    <ProjectReference Include="..\Kpi.YourDomain.ClientTests.Bootstrap\Kpi.UkrNet.ClientTests.Bootstrap.csproj" />
+    <ProjectReference Include="..\Kpi.YourDomain.ClientTests.TestsData\Kpi.UkrNet.ClientTests.TestsData.csproj" />
   </ItemGroup>
 
   <ItemGroup>

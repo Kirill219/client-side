@@ -1,14 +1,14 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Diagnostics;
-using Kpi.YourDomain.ClientTests.Model.Platform.Element;
-using Kpi.YourDomain.ClientTests.Model.Platform.Locator;
-using Kpi.YourDomain.ClientTests.Platform.Factory;
-using Kpi.YourDomain.ClientTests.Platform.Retry;
-using Kpi.YourDomain.ClientTests.Platform.Waiter;
+using Kpi.UkrNet.ClientTests.Model.Platform.Element;
+using Kpi.UkrNet.ClientTests.Model.Platform.Locator;
+using Kpi.UkrNet.ClientTests.Platform.Factory;
+using Kpi.UkrNet.ClientTests.Platform.Retry;
+using Kpi.UkrNet.ClientTests.Platform.Waiter;
 using OpenQA.Selenium;
 
-namespace Kpi.YourDomain.ClientTests.Platform.Element
+namespace Kpi.UkrNet.ClientTests.Platform.Element
 {
     public class HtmlElement : IHtmlElement
     {

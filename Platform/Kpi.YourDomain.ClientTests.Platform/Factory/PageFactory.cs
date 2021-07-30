@@ -1,9 +1,9 @@
 ﻿using System;
-using Kpi.YourDomain.ClientTests.Model.Platform.Drivers;
-using Kpi.YourDomain.ClientTests.Model.Platform.Page;
-using Kpi.YourDomain.ClientTests.Platform.Element;
+using Kpi.UkrNet.ClientTests.Model.Platform.Drivers;
+using Kpi.UkrNet.ClientTests.Model.Platform.Page;
+using Kpi.UkrNet.ClientTests.Platform.Element;
 
-namespace Kpi.YourDomain.ClientTests.Platform.Factory
+namespace Kpi.UkrNet.ClientTests.Platform.Factory
 {
     public static class PageFactory
     {

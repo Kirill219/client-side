@@ -1,4 +1,4 @@
-﻿namespace Kpi.YourDomain.ClientTests.Model.Platform.Element
+﻿namespace Kpi.UkrNet.ClientTests.Model.Platform.Element
 {
     public class SearchStrategy
     {

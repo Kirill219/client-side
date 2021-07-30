@@ -4,7 +4,7 @@ using System.Linq;
 using System.Reflection;
 using System.Runtime.Serialization;
 
-namespace Kpi.YourDomain.ClientTests.Platform.Enum
+namespace Kpi.UkrNet.ClientTests.Platform.Enum
 {
     public static class EnumExtensions
     {

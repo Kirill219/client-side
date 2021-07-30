@@ -1,6 +1,6 @@
-﻿using Kpi.YourDomain.ClientTests.Model.Domain.Search;
+﻿using Kpi.UkrNet.ClientTests.Model.Domain.Search;
 
-namespace Kpi.YourDomain.ClientTests.Domain.Search
+namespace Kpi.UkrNet.ClientTests.Domain.Search
 {
     public class SearchContext : ISearchContext
     {

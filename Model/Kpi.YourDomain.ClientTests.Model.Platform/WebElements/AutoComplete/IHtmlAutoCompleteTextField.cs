@@ -1,4 +1,4 @@
-﻿namespace Kpi.YourDomain.ClientTests.Model.Platform.WebElements.AutoComplete
+﻿namespace Kpi.UkrNet.ClientTests.Model.Platform.WebElements.AutoComplete
 {
     public interface IHtmlAutoCompleteTextField
     {

@@ -1,4 +1,4 @@
-﻿namespace Kpi.YourDomain.ClientTests.Model.Platform.WebElements.Mat
+﻿namespace Kpi.UkrNet.ClientTests.Model.Platform.WebElements.Mat
 {
     public interface IMatSelect
     {

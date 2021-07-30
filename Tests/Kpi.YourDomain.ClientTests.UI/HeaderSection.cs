@@ -1,9 +1,9 @@
-﻿using Kpi.YourDomain.ClientTests.Model.Platform.Locator;
-using Kpi.YourDomain.ClientTests.Platform.Element;
-using Kpi.YourDomain.ClientTests.UI.Search;
+﻿using Kpi.UkrNet.ClientTests.Model.Platform.Locator;
+using Kpi.UkrNet.ClientTests.Platform.Element;
+using Kpi.UkrNet.ClientTests.UI.Search;
 using OpenQA.Selenium.Support.PageObjects;
 
-namespace Kpi.YourDomain.ClientTests.UI
+namespace Kpi.UkrNet.ClientTests.UI
 {
     public class HeaderSection : HtmlElement
     {

@@ -1,6 +1,6 @@
-﻿using Kpi.YourDomain.ClientTests.Model.Platform.Element;
+﻿using Kpi.UkrNet.ClientTests.Model.Platform.Element;
 
-namespace Kpi.YourDomain.ClientTests.Model.Platform.Page
+namespace Kpi.UkrNet.ClientTests.Model.Platform.Page
 {
     public interface IWebPage : ISearchable, INative
     {

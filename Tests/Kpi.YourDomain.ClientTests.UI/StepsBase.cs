@@ -1,7 +1,7 @@
-﻿using Kpi.YourDomain.ClientTests.Model.Platform.Drivers;
-using Kpi.YourDomain.ClientTests.Platform.Configuration.Environment;
+﻿using Kpi.UkrNet.ClientTests.Model.Platform.Drivers;
+using Kpi.UkrNet.ClientTests.Platform.Configuration.Environment;
 
-namespace Kpi.YourDomain.ClientTests.UI
+namespace Kpi.UkrNet.ClientTests.UI
 {
     public class StepsBase
     {

@@ -1,4 +1,4 @@
-﻿namespace Kpi.YourDomain.ClientTests.Model.Platform.WebElements.Dropdowns
+﻿namespace Kpi.UkrNet.ClientTests.Model.Platform.WebElements.Dropdowns
 {
     public interface IMethodDropdown
     {

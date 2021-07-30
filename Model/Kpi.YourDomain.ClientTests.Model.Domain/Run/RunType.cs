@@ -1,4 +1,4 @@
-﻿namespace Kpi.YourDomain.ClientTests.Model.Domain.Run
+﻿namespace Kpi.UkrNet.ClientTests.Model.Domain.Run
 {
     public enum RunType
     {

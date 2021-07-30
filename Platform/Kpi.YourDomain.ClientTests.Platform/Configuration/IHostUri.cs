@@ -1,4 +1,4 @@
-﻿namespace Kpi.YourDomain.ClientTests.Platform.Configuration
+﻿namespace Kpi.UkrNet.ClientTests.Platform.Configuration
 {
     public interface IHostUri
     {

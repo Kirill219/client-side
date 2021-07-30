@@ -1,25 +1,25 @@
 ﻿using System;
 using Autofac;
-using Kpi.YourDomain.ClientTests.Domain.Login;
-using Kpi.YourDomain.ClientTests.Domain.Search;
-using Kpi.YourDomain.ClientTests.Model.Domain.Login;
-using Kpi.YourDomain.ClientTests.Model.Domain.Poduct;
-using Kpi.YourDomain.ClientTests.Model.Domain.Search;
-using Kpi.YourDomain.ClientTests.Model.Platform.Communication;
-using Kpi.YourDomain.ClientTests.Model.Platform.Drivers;
-using Kpi.YourDomain.ClientTests.Platform.Communication;
-using Kpi.YourDomain.ClientTests.Platform.Configuration.Environment;
-using Kpi.YourDomain.ClientTests.Platform.Configuration.Run;
-using Kpi.YourDomain.ClientTests.Platform.Driver;
-using Kpi.YourDomain.ClientTests.UI.Login;
-using Kpi.YourDomain.ClientTests.UI.Product;
-using Kpi.YourDomain.ClientTests.UI.Search;
+using Kpi.UkrNet.ClientTests.Domain.Login;
+using Kpi.UkrNet.ClientTests.Domain.Search;
+using Kpi.UkrNet.ClientTests.Model.Domain.Login;
+using Kpi.UkrNet.ClientTests.Model.Domain.Poduct;
+using Kpi.UkrNet.ClientTests.Model.Domain.Search;
+using Kpi.UkrNet.ClientTests.Model.Platform.Communication;
+using Kpi.UkrNet.ClientTests.Model.Platform.Drivers;
+using Kpi.UkrNet.ClientTests.Platform.Communication;
+using Kpi.UkrNet.ClientTests.Platform.Configuration.Environment;
+using Kpi.UkrNet.ClientTests.Platform.Configuration.Run;
+using Kpi.UkrNet.ClientTests.Platform.Driver;
+using Kpi.UkrNet.ClientTests.UI.Login;
+using Kpi.UkrNet.ClientTests.UI.Product;
+using Kpi.UkrNet.ClientTests.UI.Search;
 using Microsoft.Extensions.Configuration;
 using RestSharp;
 using Serilog;
 using Serilog.Events;
 
-namespace Kpi.YourDomain.ClientTests.Bootstrap
+namespace Kpi.UkrNet.ClientTests.Bootstrap
 {
     public class Bootstraper
     {

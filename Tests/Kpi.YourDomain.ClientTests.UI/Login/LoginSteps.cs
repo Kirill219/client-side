@@ -1,10 +1,10 @@
 ﻿using System;
-using Kpi.YourDomain.ClientTests.Model.Domain.Login;
-using Kpi.YourDomain.ClientTests.Model.Platform.Drivers;
-using Kpi.YourDomain.ClientTests.Platform.Configuration.Environment;
-using Kpi.YourDomain.ClientTests.Platform.Factory;
+using Kpi.UkrNet.ClientTests.Model.Domain.Login;
+using Kpi.UkrNet.ClientTests.Model.Platform.Drivers;
+using Kpi.UkrNet.ClientTests.Platform.Configuration.Environment;
+using Kpi.UkrNet.ClientTests.Platform.Factory;
 
-namespace Kpi.YourDomain.ClientTests.UI.Login
+namespace Kpi.UkrNet.ClientTests.UI.Login
 {
     public class LoginSteps : StepsBase, ILoginSteps
     {

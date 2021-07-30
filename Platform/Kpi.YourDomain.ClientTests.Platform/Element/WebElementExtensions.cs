@@ -1,7 +1,7 @@
 ﻿using System;
 using OpenQA.Selenium;
 
-namespace Kpi.YourDomain.ClientTests.Platform.Element
+namespace Kpi.UkrNet.ClientTests.Platform.Element
 {
     internal static class WebElementExtensions
     {

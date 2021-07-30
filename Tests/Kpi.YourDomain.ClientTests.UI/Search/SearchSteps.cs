@@ -1,8 +1,8 @@
-﻿using Kpi.YourDomain.ClientTests.Model.Domain.Search;
-using Kpi.YourDomain.ClientTests.Model.Platform.Drivers;
-using Kpi.YourDomain.ClientTests.Platform.Factory;
+﻿using Kpi.UkrNet.ClientTests.Model.Domain.Search;
+using Kpi.UkrNet.ClientTests.Model.Platform.Drivers;
+using Kpi.UkrNet.ClientTests.Platform.Factory;
 
-namespace Kpi.YourDomain.ClientTests.UI.Search
+namespace Kpi.UkrNet.ClientTests.UI.Search
 {
     public class SearchSteps : ISearchSteps
     {

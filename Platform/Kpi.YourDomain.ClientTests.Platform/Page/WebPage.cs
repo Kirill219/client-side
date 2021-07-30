@@ -2,17 +2,17 @@
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Threading;
-using Kpi.YourDomain.ClientTests.Model.Platform.Element;
-using Kpi.YourDomain.ClientTests.Model.Platform.Locator;
-using Kpi.YourDomain.ClientTests.Model.Platform.Page;
-using Kpi.YourDomain.ClientTests.Platform.Driver;
-using Kpi.YourDomain.ClientTests.Platform.Element;
-using Kpi.YourDomain.ClientTests.Platform.Factory;
+using Kpi.UkrNet.ClientTests.Model.Platform.Element;
+using Kpi.UkrNet.ClientTests.Model.Platform.Locator;
+using Kpi.UkrNet.ClientTests.Model.Platform.Page;
+using Kpi.UkrNet.ClientTests.Platform.Driver;
+using Kpi.UkrNet.ClientTests.Platform.Element;
+using Kpi.UkrNet.ClientTests.Platform.Factory;
 using OpenQA.Selenium;
 using IJavaScriptExecutor = OpenQA.Selenium.IJavaScriptExecutor;
-using IWebDriver = Kpi.YourDomain.ClientTests.Model.Platform.Drivers.IWebDriver;
+using IWebDriver = Kpi.UkrNet.ClientTests.Model.Platform.Drivers.IWebDriver;
 
-namespace Kpi.YourDomain.ClientTests.Platform.Page
+namespace Kpi.UkrNet.ClientTests.Platform.Page
 {
     public abstract class WebPage : IWebPage
     {

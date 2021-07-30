@@ -1,4 +1,4 @@
-﻿namespace Kpi.YourDomain.ClientTests.Platform.Configuration.Environment
+﻿namespace Kpi.UkrNet.ClientTests.Platform.Configuration.Environment
 {
     public interface IEnvironmentConfiguration
     {

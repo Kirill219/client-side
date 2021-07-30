@@ -2,10 +2,10 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
-using Kpi.YourDomain.ClientTests.Model.Platform.Element;
-using Kpi.YourDomain.ClientTests.Model.Platform.Locator;
+using Kpi.UkrNet.ClientTests.Model.Platform.Element;
+using Kpi.UkrNet.ClientTests.Model.Platform.Locator;
 
-namespace Kpi.YourDomain.ClientTests.Platform.Element
+namespace Kpi.UkrNet.ClientTests.Platform.Element
 {
     internal static class PropertyExtension
     {

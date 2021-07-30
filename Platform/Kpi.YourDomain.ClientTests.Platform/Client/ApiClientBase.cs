@@ -1,11 +1,11 @@
 ﻿using System.Threading.Tasks;
-using Kpi.YourDomain.ClientTests.Model.Platform.Client;
-using Kpi.YourDomain.ClientTests.Model.Platform.Communication;
-using Kpi.YourDomain.ClientTests.Platform.Communication.Http;
+using Kpi.UkrNet.ClientTests.Model.Platform.Client;
+using Kpi.UkrNet.ClientTests.Model.Platform.Communication;
+using Kpi.UkrNet.ClientTests.Platform.Communication.Http;
 using RestSharp;
 using Serilog;
 
-namespace Kpi.YourDomain.ClientTests.Platform.Client
+namespace Kpi.UkrNet.ClientTests.Platform.Client
 {
     public abstract class ApiClientBase : IApiClient
     {

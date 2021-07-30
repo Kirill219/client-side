@@ -1,4 +1,4 @@
-﻿namespace Kpi.YourDomain.ClientTests.UI.Search
+﻿namespace Kpi.UkrNet.ClientTests.UI.Search
 {
     public interface ISearchElement
     {

@@ -1,12 +1,12 @@
 ﻿using System;
 using System.Linq;
-using Kpi.YourDomain.ClientTests.Model.Platform.Locator;
-using Kpi.YourDomain.ClientTests.Model.Platform.WebElements.Dropdowns;
-using Kpi.YourDomain.ClientTests.Platform.Element;
-using Kpi.YourDomain.ClientTests.Platform.Waiter;
+using Kpi.UkrNet.ClientTests.Model.Platform.Locator;
+using Kpi.UkrNet.ClientTests.Model.Platform.WebElements.Dropdowns;
+using Kpi.UkrNet.ClientTests.Platform.Element;
+using Kpi.UkrNet.ClientTests.Platform.Waiter;
 using OpenQA.Selenium.Support.PageObjects;
 
-namespace Kpi.YourDomain.ClientTests.Platform.WebElements.Dropdowns
+namespace Kpi.UkrNet.ClientTests.Platform.WebElements.Dropdowns
 {
     public class MethodDropDown : HtmlElement, IMethodDropdown
     {

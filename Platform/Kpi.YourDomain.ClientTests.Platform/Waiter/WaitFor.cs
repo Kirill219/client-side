@@ -4,7 +4,7 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace Kpi.YourDomain.ClientTests.Platform.Waiter
+namespace Kpi.UkrNet.ClientTests.Platform.Waiter
 {
     public static class WaitFor
     {

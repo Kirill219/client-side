@@ -1,12 +1,12 @@
 ﻿using System;
 using System.Text;
 using System.Threading.Tasks;
-using Kpi.YourDomain.ClientTests.Model.Platform.Communication;
+using Kpi.UkrNet.ClientTests.Model.Platform.Communication;
 using RestSharp;
 using RestSharp.Authenticators;
 using Serilog;
 
-namespace Kpi.YourDomain.ClientTests.Platform.Communication
+namespace Kpi.UkrNet.ClientTests.Platform.Communication
 {
     public class Client : IClient
     {

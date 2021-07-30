@@ -1,17 +1,17 @@
 ﻿using System;
 using System.Collections.Generic;
-using Kpi.YourDomain.ClientTests.Model.Domain.Run;
-using Kpi.YourDomain.ClientTests.Model.Platform.Element;
-using Kpi.YourDomain.ClientTests.Model.Platform.Locator;
-using Kpi.YourDomain.ClientTests.Platform.Configuration.Run;
-using Kpi.YourDomain.ClientTests.Platform.Enum;
+using Kpi.UkrNet.ClientTests.Model.Domain.Run;
+using Kpi.UkrNet.ClientTests.Model.Platform.Element;
+using Kpi.UkrNet.ClientTests.Model.Platform.Locator;
+using Kpi.UkrNet.ClientTests.Platform.Configuration.Run;
+using Kpi.UkrNet.ClientTests.Platform.Enum;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
 using OpenQA.Selenium.Remote;
 using Serilog;
-using IJavaScriptExecutor = Kpi.YourDomain.ClientTests.Model.Platform.Drivers.IJavaScriptExecutor;
+using IJavaScriptExecutor = Kpi.UkrNet.ClientTests.Model.Platform.Drivers.IJavaScriptExecutor;
 
-namespace Kpi.YourDomain.ClientTests.Platform.Driver
+namespace Kpi.UkrNet.ClientTests.Platform.Driver
 {
     public sealed class WebDriver : Model.Platform.Drivers.IWebDriver, IJavaScriptExecutor, INative
     {

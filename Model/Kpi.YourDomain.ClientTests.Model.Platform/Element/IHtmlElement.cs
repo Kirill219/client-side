@@ -1,6 +1,6 @@
 ﻿using OpenQA.Selenium;
 
-namespace Kpi.YourDomain.ClientTests.Model.Platform.Element
+namespace Kpi.UkrNet.ClientTests.Model.Platform.Element
 {
     public interface IHtmlElement : ISearchable, INative
     {

@@ -1,7 +1,7 @@
 ﻿using System;
 using OpenQA.Selenium;
 
-namespace Kpi.YourDomain.ClientTests.Platform.Driver
+namespace Kpi.UkrNet.ClientTests.Platform.Driver
 {
     internal static class WebDriverExtensions
     {

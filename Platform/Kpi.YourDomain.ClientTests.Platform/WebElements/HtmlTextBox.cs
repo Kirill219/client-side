@@ -1,7 +1,7 @@
-﻿using Kpi.YourDomain.ClientTests.Model.Platform.WebElements;
-using Kpi.YourDomain.ClientTests.Platform.Element;
+﻿using Kpi.UkrNet.ClientTests.Model.Platform.WebElements;
+using Kpi.UkrNet.ClientTests.Platform.Element;
 
-namespace Kpi.YourDomain.ClientTests.Platform.WebElements
+namespace Kpi.UkrNet.ClientTests.Platform.WebElements
 {
     public class HtmlTextBox : HtmlElement, IHtmlTextElement
     {

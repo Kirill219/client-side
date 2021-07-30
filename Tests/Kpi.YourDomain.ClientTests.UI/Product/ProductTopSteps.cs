@@ -1,9 +1,9 @@
-﻿using Kpi.YourDomain.ClientTests.Model.Domain.Poduct;
-using Kpi.YourDomain.ClientTests.Model.Platform.Drivers;
-using Kpi.YourDomain.ClientTests.Platform.Configuration.Environment;
-using Kpi.YourDomain.ClientTests.Platform.Factory;
+﻿using Kpi.UkrNet.ClientTests.Model.Domain.Poduct;
+using Kpi.UkrNet.ClientTests.Model.Platform.Drivers;
+using Kpi.UkrNet.ClientTests.Platform.Configuration.Environment;
+using Kpi.UkrNet.ClientTests.Platform.Factory;
 
-namespace Kpi.YourDomain.ClientTests.UI.Product
+namespace Kpi.UkrNet.ClientTests.UI.Product
 {
     public class ProductTopSteps : StepsBase, IProductTopSteps
     {

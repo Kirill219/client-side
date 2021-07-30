@@ -1,6 +1,6 @@
 ﻿using OpenQA.Selenium.Support.PageObjects;
 
-namespace Kpi.YourDomain.ClientTests.Model.Platform.Locator
+namespace Kpi.UkrNet.ClientTests.Model.Platform.Locator
 {
     public class Locator
     {

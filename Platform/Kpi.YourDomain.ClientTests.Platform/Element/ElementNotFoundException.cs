@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Kpi.YourDomain.ClientTests.Platform.Element
+namespace Kpi.UkrNet.ClientTests.Platform.Element
 {
     public class ElementNotFoundException : Exception
     {

@@ -1,8 +1,8 @@
 ﻿using System.Collections.Generic;
 using Bogus;
-using Kpi.YourDomain.ClientTests.Model.Domain.Login;
+using Kpi.UkrNet.ClientTests.Model.Domain.Login;
 
-namespace Kpi.YourDomain.ClientTests.TestsData.Storage
+namespace Kpi.UkrNet.ClientTests.TestsData.Storage
 {
     public static class UsersStorage
     {

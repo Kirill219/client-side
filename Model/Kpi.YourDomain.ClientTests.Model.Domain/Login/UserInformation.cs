@@ -1,4 +1,4 @@
-﻿namespace Kpi.YourDomain.ClientTests.Model.Domain.Login
+﻿namespace Kpi.UkrNet.ClientTests.Model.Domain.Login
 {
     public class UserInformation
     {

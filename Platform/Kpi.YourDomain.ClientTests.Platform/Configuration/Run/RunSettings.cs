@@ -1,6 +1,6 @@
-﻿using Kpi.YourDomain.ClientTests.Model.Domain.Run;
+﻿using Kpi.UkrNet.ClientTests.Model.Domain.Run;
 
-namespace Kpi.YourDomain.ClientTests.Platform.Configuration.Run
+namespace Kpi.UkrNet.ClientTests.Platform.Configuration.Run
 {
     public class RunSettings : IRunSettings
     {

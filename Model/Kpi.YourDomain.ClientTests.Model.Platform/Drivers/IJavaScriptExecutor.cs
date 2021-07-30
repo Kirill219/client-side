@@ -1,4 +1,4 @@
-﻿namespace Kpi.YourDomain.ClientTests.Model.Platform.Drivers
+﻿namespace Kpi.UkrNet.ClientTests.Model.Platform.Drivers
 {
     public interface IJavaScriptExecutor
     {

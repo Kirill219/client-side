@@ -1,6 +1,6 @@
-﻿using Kpi.YourDomain.ClientTests.Platform.Element;
+﻿using Kpi.UkrNet.ClientTests.Platform.Element;
 
-namespace Kpi.YourDomain.ClientTests.Platform.WebElements
+namespace Kpi.UkrNet.ClientTests.Platform.WebElements
 {
     public class HtmlLabel : HtmlElement
     {

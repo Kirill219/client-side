@@ -1,8 +1,8 @@
 ﻿using System;
 using System.Reflection;
-using Kpi.YourDomain.ClientTests.Model.Platform.Element;
-using Kpi.YourDomain.ClientTests.Model.Platform.Locator;
-using Kpi.YourDomain.ClientTests.Platform.Element;
+using Kpi.UkrNet.ClientTests.Model.Platform.Element;
+using Kpi.UkrNet.ClientTests.Model.Platform.Locator;
+using Kpi.UkrNet.ClientTests.Platform.Element;
 
 namespace Kpi.YourDomain.ClientTests.Platform.Factory
 {

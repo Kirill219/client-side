@@ -1,11 +1,11 @@
-﻿using Kpi.YourDomain.ClientTests.Model.Platform.Drivers;
-using Kpi.YourDomain.ClientTests.Model.Platform.Locator;
-using Kpi.YourDomain.ClientTests.Platform.Page;
-using Kpi.YourDomain.ClientTests.Platform.WebElements;
-using Kpi.YourDomain.ClientTests.UI.Product;
+﻿using Kpi.UkrNet.ClientTests.Model.Platform.Drivers;
+using Kpi.UkrNet.ClientTests.Model.Platform.Locator;
+using Kpi.UkrNet.ClientTests.Platform.Page;
+using Kpi.UkrNet.ClientTests.Platform.WebElements;
+using Kpi.UkrNet.ClientTests.UI.Product;
 using OpenQA.Selenium.Support.PageObjects;
 
-namespace Kpi.YourDomain.ClientTests.UI
+namespace Kpi.UkrNet.ClientTests.UI
 {
     public class MainPage : WebPage
     {

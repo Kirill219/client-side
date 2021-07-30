@@ -1,4 +1,4 @@
-﻿namespace Kpi.YourDomain.ClientTests.Platform.Waiter
+﻿namespace Kpi.UkrNet.ClientTests.Platform.Waiter
 {
     public enum ExceptionsDuringWait
     {

@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Threading;
 
-namespace Kpi.YourDomain.ClientTests.Platform.Retry
+namespace Kpi.UkrNet.ClientTests.Platform.Retry
 {
     public static class Do
     {

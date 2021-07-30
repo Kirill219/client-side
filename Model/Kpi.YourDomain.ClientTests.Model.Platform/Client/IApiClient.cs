@@ -1,7 +1,7 @@
 ﻿using System.Threading.Tasks;
 using RestSharp;
 
-namespace Kpi.YourDomain.ClientTests.Model.Platform.Client
+namespace Kpi.UkrNet.ClientTests.Model.Platform.Client
 {
     public interface IApiClient
     {

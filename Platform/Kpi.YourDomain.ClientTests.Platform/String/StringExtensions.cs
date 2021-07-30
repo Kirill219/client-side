@@ -1,4 +1,4 @@
-﻿namespace Kpi.YourDomain.ClientTests.Platform.String
+﻿namespace Kpi.UkrNet.ClientTests.Platform.String
 {
     public static class StringExtensions
     {

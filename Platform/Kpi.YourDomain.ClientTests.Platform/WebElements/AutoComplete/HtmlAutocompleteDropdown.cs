@@ -1,10 +1,10 @@
 ﻿using System.Linq;
-using Kpi.YourDomain.ClientTests.Model.Platform.Locator;
-using Kpi.YourDomain.ClientTests.Model.Platform.WebElements.AutoComplete;
-using Kpi.YourDomain.ClientTests.Platform.Element;
+using Kpi.UkrNet.ClientTests.Model.Platform.Locator;
+using Kpi.UkrNet.ClientTests.Model.Platform.WebElements.AutoComplete;
+using Kpi.UkrNet.ClientTests.Platform.Element;
 using OpenQA.Selenium.Support.PageObjects;
 
-namespace Kpi.YourDomain.ClientTests.Platform.WebElements.AutoComplete
+namespace Kpi.UkrNet.ClientTests.Platform.WebElements.AutoComplete
 {
     public class HtmlAutocompleteDropdown : HtmlElement, IHtmlAutocompleteDropdown
     {

@@ -1,4 +1,4 @@
-﻿namespace Kpi.YourDomain.ClientTests.Model.Platform.WebElements
+﻿namespace Kpi.UkrNet.ClientTests.Model.Platform.WebElements
 {
     public interface IHtmlCheckbox
     {

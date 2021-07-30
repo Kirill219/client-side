@@ -2,7 +2,7 @@
 using System.Diagnostics;
 using System.Threading;
 
-namespace Kpi.YourDomain.ClientTests.Platform.Waiter
+namespace Kpi.UkrNet.ClientTests.Platform.Waiter
 {
     public static class Wait
     {

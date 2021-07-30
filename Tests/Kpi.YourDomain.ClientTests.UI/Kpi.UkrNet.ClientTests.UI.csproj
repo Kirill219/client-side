@@ -28,11 +28,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Autofac" Version="6.2.0" />
-    <PackageReference Include="Microsoft.Extensions.Configuration" Version="5.0.0" />
-    <PackageReference Include="Microsoft.Extensions.Configuration.Abstractions" Version="5.0.0" />
-    <PackageReference Include="Microsoft.Extensions.Configuration.Binder" Version="5.0.0" />
-    <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="5.0.0" />
     <PackageReference Include="StyleCop.Analyzers" Version="1.1.118">
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
@@ -40,8 +35,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\Domain\Kpi.YourDomain.ClientTests.Domain\Kpi.YourDomain.ClientTests.Domain.csproj" />
-    <ProjectReference Include="..\..\Platform\Kpi.YourDomain.ClientTests.Platform\Kpi.YourDomain.ClientTests.Platform.csproj" />
-    <ProjectReference Include="..\Kpi.YourDomain.ClientTests.UI\Kpi.YourDomain.ClientTests.UI.csproj" />
+    <ProjectReference Include="..\..\Model\Kpi.YourDomain.ClientTests.Model.Platform\Kpi.UkrNet.ClientTests.Model.Platform.csproj" />
+    <ProjectReference Include="..\..\Platform\Kpi.YourDomain.ClientTests.Platform\Kpi.UkrNet.ClientTests.Platform.csproj" />
   </ItemGroup>
+
 </Project>

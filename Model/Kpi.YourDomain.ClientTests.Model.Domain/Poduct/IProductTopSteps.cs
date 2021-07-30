@@ -1,4 +1,4 @@
-﻿namespace Kpi.YourDomain.ClientTests.Model.Domain.Poduct
+﻿namespace Kpi.UkrNet.ClientTests.Model.Domain.Poduct
 {
     public interface IProductTopSteps
     {

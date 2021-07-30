@@ -1,6 +1,6 @@
-﻿using Kpi.YourDomain.ClientTests.Model.Domain.Login;
+﻿using Kpi.UkrNet.ClientTests.Model.Domain.Login;
 
-namespace Kpi.YourDomain.ClientTests.Domain.Login
+namespace Kpi.UkrNet.ClientTests.Domain.Login
 {
     public class LoginContext : ILoginContext
     {
@@ -12,13 +12,13 @@ namespace Kpi.YourDomain.ClientTests.Domain.Login
             _loginSteps = loginSteps;
         }
 
-        public void OpenAndLogin (UserInformation user)
+        public void OpenAndLogin(UserInformation user)
         {
             _loginSteps.OpenLoginPage();
             Login(user);
         }
 
-        private void Login (UserInformation user)
+        private void Login(UserInformation user)
         {
             _loginSteps.SetEmail(user.Email);
             _loginSteps.SetPassword(user.Password);
