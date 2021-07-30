@@ -3,11 +3,11 @@ using Kpi.UkrNet.ClientTests.Platform.Element;
 using Kpi.UkrNet.ClientTests.Platform.WebElements;
 using OpenQA.Selenium.Support.PageObjects;
 
-namespace Kpi.UkrNet.ClientTests.UI.Product
+namespace Kpi.UkrNet.ClientTests.UI.MailBox
 {
-    public class ProductTopElement : HtmlElement
+    public class EmailFormElement : HtmlElement
     {
-        [FindBy(How.XPath, ".//h1")]
-        public HtmlLabel ProductHeaderLabel { get; set; }
+        [FindBy(How.XPath, "//button[@class='button primary send']")]
+        public HtmlButton SendButton { get; set; }
     }
 }

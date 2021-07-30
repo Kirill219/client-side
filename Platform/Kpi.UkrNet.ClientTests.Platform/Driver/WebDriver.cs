@@ -13,7 +13,7 @@ using IJavaScriptExecutor = Kpi.UkrNet.ClientTests.Model.Platform.Drivers.IJavaS
 
 namespace Kpi.UkrNet.ClientTests.Platform.Driver
 {
-    public sealed class WebDriver : Model.Platform.Drivers.IWebDriver, IJavaScriptExecutor, INative
+    public sealed class WebDriver : Model.Platform.Drivers.IWebDriver, Model.Platform.Drivers.IJavaScriptExecutor, INative
     {
         private readonly IRunSettings _runSettings;
         private readonly ILogger _logger;

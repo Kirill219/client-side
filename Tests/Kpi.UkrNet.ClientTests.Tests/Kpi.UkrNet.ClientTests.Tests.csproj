@@ -22,6 +22,11 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <SpecFlowObsoleteCodeBehindFiles Remove="Features\Login.feature.cs" />
+    <SpecFlowObsoleteCodeBehindFiles Remove="Features\SendEmail.feature.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Compile Include="..\..\StyleCop\GlobalSuppressions.cs" Link="GlobalSuppressions.cs" />
   </ItemGroup>
 
@@ -82,14 +87,17 @@
     </None>
   </ItemGroup>
 
-  <ItemGroup>
-    <Compile Update="Features\Search.Definition.cs">
-      <DependentUpon>Search.feature</DependentUpon>
-    </Compile>
-  </ItemGroup>
-
   <Target Name="PreBuild" BeforeTargets="PreBuildEvent">
     <Exec Command="taskkill /f /fi &quot;pid gt 0&quot; /im chromedriver.exe" />
   </Target>
+
+  <ItemGroup>
+    <Compile Update="Features\Login.Definition.cs">
+      <DependentUpon>Login.feature</DependentUpon>
+    </Compile>
+    <Compile Update="Features\OpenEmailForm.Definition.cs">
+      <DependentUpon>OpenEmailForm.feature</DependentUpon>
+    </Compile>
+  </ItemGroup>
 
 </Project>

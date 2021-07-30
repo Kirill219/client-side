@@ -1,4 +1,4 @@
-﻿using System;
+﻿using System.Threading;
 using Kpi.UkrNet.ClientTests.Model.Domain.Login;
 using Kpi.UkrNet.ClientTests.Model.Platform.Drivers;
 using Kpi.UkrNet.ClientTests.Platform.Configuration.Environment;
@@ -8,39 +8,35 @@ namespace Kpi.UkrNet.ClientTests.UI.Login
 {
     public class LoginSteps : StepsBase, ILoginSteps
     {
-        private readonly IWebDriver _webDriver;
-
-        public LoginSteps (
-            IWebDriver webDriver, 
-            IEnvironmentConfiguration environmentConfiguration) 
+        public LoginSteps(
+            IWebDriver webDriver,
+            IEnvironmentConfiguration environmentConfiguration)
             : base(webDriver, environmentConfiguration)
         {
-            _webDriver = webDriver;
         }
 
-        private LoginPage LoginPage => PageFactory.Get<LoginPage>(_webDriver);
+        private LoginFormElement LoginForm =>
+            PageFactory.Get<LoginPage>(WebDriver).LoginForm;
 
-        private MainPage MainPage => PageFactory.Get<MainPage>(_webDriver);
-
-        public void SetEmail (string email)
+        public void SetLogin (string login)
         {
-            LoginPage.EmailTextBox.SetText(email);
+            LoginForm.LoginTextBox.SetText(login);
         }
 
         public void SetPassword (string password)
         {
-            LoginPage.PasswordTextBox.SetText(password);
+            LoginForm.PasswordTextBox.SetText(password);
         }
 
-        public void Login ()
+        public void Login()
         {
-            throw new NotImplementedException();
+            LoginForm.LoginButton.Click();
         }
 
-        public void OpenLoginPage ()
+        public string GetErrorMessage()
         {
-            OpenMainView();
-            MainPage.OpenLoginButton.Click();
+            Thread.Sleep(100);
+            return LoginForm.ErrorMessage.GetText();
         }
     }
 }
