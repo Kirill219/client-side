@@ -35,7 +35,7 @@ namespace Kpi.UkrNet.ClientTests.UI.Login
 
         public string GetErrorMessage()
         {
-            Thread.Sleep(100);
+            Thread.Sleep(500);
             return LoginForm.ErrorMessage.GetText();
         }
     }
