@@ -3,11 +3,11 @@ using Kpi.UkrNet.ClientTests.Platform.Element;
 using Kpi.UkrNet.ClientTests.Platform.WebElements;
 using OpenQA.Selenium.Support.PageObjects;
 
-namespace Kpi.UkrNet.ClientTests.UI
+namespace Kpi.UkrNet.ClientTests.UI.MailBox
 {
-    public class DocSection : HtmlElement
+    public class SideBarElement : HtmlElement
     {
-        [FindBy(How.XPath, "")]
-        public HtmlButton CloseButton { get; set; }
+        [FindBy(How.XPath, "//button")]
+        public HtmlButton SendMailButton { get; set; }
     }
 }
