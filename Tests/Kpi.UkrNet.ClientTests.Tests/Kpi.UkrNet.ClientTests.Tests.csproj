@@ -98,6 +98,9 @@
     <Compile Update="Features\OpenEmailForm.Definition.cs">
       <DependentUpon>OpenEmailForm.feature</DependentUpon>
     </Compile>
+    <Compile Update="Features\OpenEdiskPage.Definition.cs">
+      <DependentUpon>OpenEdiskPage.feature</DependentUpon>
+    </Compile>
   </ItemGroup>
 
 </Project>

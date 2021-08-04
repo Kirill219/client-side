@@ -1,7 +1,9 @@
 ﻿using System;
 using Autofac;
 using Kpi.UkrNet.ClientTests.Domain.Login;
+using Kpi.UkrNet.ClientTests.Model.Domain.Edisk;
 using Kpi.UkrNet.ClientTests.Model.Domain.Login;
+using Kpi.UkrNet.ClientTests.Model.Domain.OpenEdiskPage;
 using Kpi.UkrNet.ClientTests.Model.Domain.OpenEmailForm;
 using Kpi.UkrNet.ClientTests.Model.Domain.UserInfo;
 using Kpi.UkrNet.ClientTests.Model.Platform.Communication;
@@ -10,6 +12,7 @@ using Kpi.UkrNet.ClientTests.Platform.Communication;
 using Kpi.UkrNet.ClientTests.Platform.Configuration.Environment;
 using Kpi.UkrNet.ClientTests.Platform.Configuration.Run;
 using Kpi.UkrNet.ClientTests.Platform.Driver;
+using Kpi.UkrNet.ClientTests.UI.Edisk;
 using Kpi.UkrNet.ClientTests.UI.Login;
 using Kpi.UkrNet.ClientTests.UI.MailBox;
 using Kpi.UkrNet.ClientTests.UI.UserInfo;
@@ -51,6 +54,8 @@ namespace Kpi.UkrNet.ClientTests.Bootstrap
             Builder.RegisterType<LoginSteps>().As<ILoginSteps>().SingleInstance();
             Builder.RegisterType<UserInfoSteps>().As<IUserInfoSteps>().SingleInstance();
             Builder.RegisterType<OpenEmailFormSteps>().As<IOpenEmailFormSteps>().SingleInstance();
+            Builder.RegisterType<EdiskSteps>().As<IEdiskSteps>().SingleInstance();
+            Builder.RegisterType<OpenEdiskPageSteps>().As<IOpenEdiskPageSteps>().SingleInstance();
 
             Builder.RegisterType<WebDriver>().As<IWebDriver>().SingleInstance();
         }

@@ -1,4 +1,5 @@
 ﻿using System.Threading;
+using Castle.Core.Internal;
 using Kpi.UkrNet.ClientTests.Model.Domain.Login;
 using Kpi.UkrNet.ClientTests.Model.Platform.Drivers;
 using Kpi.UkrNet.ClientTests.Platform.Configuration.Environment;
@@ -35,7 +36,23 @@ namespace Kpi.UkrNet.ClientTests.UI.Login
 
         public string GetErrorMessage()
         {
-            Thread.Sleep(100);
+            var error = LoginForm.ErrorMessage.GetText();
+            if (!error.IsNullOrEmpty())
+            {
+                return LoginForm.ErrorMessage.GetText();
+            }
+
+            for (var i = 0; i < 5; i++)
+            {
+                error = LoginForm.ErrorMessage.GetText();
+                if (!error.IsNullOrEmpty())
+                {
+                    break;
+                }
+
+                Thread.Sleep(500);
+            }
+
             return LoginForm.ErrorMessage.GetText();
         }
     }

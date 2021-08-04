@@ -9,5 +9,8 @@ namespace Kpi.UkrNet.ClientTests.UI.MailBox
     {
         [FindBy(How.XPath, "//button")]
         public HtmlButton SendMailButton { get; set; }
+
+        [FindBy(How.XPath, "//a[@href='https://edisk.ukr.net/']")]
+        public HtmlButton EdiskButton { get; set; }
     }
 }
