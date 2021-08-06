@@ -1,11 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-using FluentAssertions;
+﻿using FluentAssertions;
 using Kpi.UkrNet.ClientTests.Model.Domain.Edisk;
 using Kpi.UkrNet.ClientTests.Model.Domain.Login;
 using Kpi.UkrNet.ClientTests.Model.Domain.OpenEdiskPage;
-using Kpi.UkrNet.ClientTests.Model.Domain.OpenEmailForm;
 using Kpi.UkrNet.ClientTests.TestsData.Storage;
 using TechTalk.SpecFlow;
 
