@@ -2,6 +2,6 @@
 {
     public interface IOpenEdiskPageSteps
     {
-        public void OpenEdiskPage();
+        void OpenEdiskPage();
     }
 }

@@ -6,17 +6,14 @@ namespace Kpi.UkrNet.ClientTests.UI
     public class StepsBase
     {
         private protected readonly IWebDriver WebDriver;
-        private readonly IEnvironmentConfiguration _environmentConfiguration;
+        private protected readonly IEnvironmentConfiguration EnvironmentConfiguration;
 
         protected StepsBase(
             IWebDriver webDriver,
             IEnvironmentConfiguration environmentConfiguration)
         {
             WebDriver = webDriver;
-            _environmentConfiguration = environmentConfiguration;
+            EnvironmentConfiguration = environmentConfiguration;
         }
-
-        public void OpenMainView() =>
-            WebDriver.Get(_environmentConfiguration.EnvironmentUri);
     }
 }

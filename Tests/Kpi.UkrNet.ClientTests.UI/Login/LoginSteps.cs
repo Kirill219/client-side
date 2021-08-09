@@ -1,9 +1,11 @@
-﻿using System.Threading;
+﻿using System;
+using System.Threading;
 using Castle.Core.Internal;
 using Kpi.UkrNet.ClientTests.Model.Domain.Login;
 using Kpi.UkrNet.ClientTests.Model.Platform.Drivers;
 using Kpi.UkrNet.ClientTests.Platform.Configuration.Environment;
 using Kpi.UkrNet.ClientTests.Platform.Factory;
+using Kpi.UkrNet.ClientTests.Platform.Waiter;
 
 namespace Kpi.UkrNet.ClientTests.UI.Login
 {
@@ -18,6 +20,9 @@ namespace Kpi.UkrNet.ClientTests.UI.Login
 
         private LoginFormElement LoginForm =>
             PageFactory.Get<LoginPage>(WebDriver).LoginForm;
+
+        public void OpenMainView() =>
+            WebDriver.Get(EnvironmentConfiguration.EnvironmentUri);
 
         public void SetLogin (string login)
         {
@@ -36,23 +41,11 @@ namespace Kpi.UkrNet.ClientTests.UI.Login
 
         public string GetErrorMessage()
         {
-            var error = LoginForm.ErrorMessage.GetText();
-            if (!error.IsNullOrEmpty())
-            {
-                return LoginForm.ErrorMessage.GetText();
-            }
-
-            for (var i = 0; i < 5; i++)
-            {
-                error = LoginForm.ErrorMessage.GetText();
-                if (!error.IsNullOrEmpty())
-                {
-                    break;
-                }
-
-                Thread.Sleep(500);
-            }
-
+            WaitFor.Condition(
+                () => !LoginForm.ErrorMessage.GetText().IsNullOrEmpty(),
+                "Can not get error message",
+                TimeSpan.FromSeconds(5),
+                TimeSpan.FromMilliseconds(500));
             return LoginForm.ErrorMessage.GetText();
         }
     }

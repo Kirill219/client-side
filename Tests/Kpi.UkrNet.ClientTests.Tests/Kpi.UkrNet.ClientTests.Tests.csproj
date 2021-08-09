@@ -22,11 +22,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <SpecFlowObsoleteCodeBehindFiles Remove="Features\Login.feature.cs" />
-    <SpecFlowObsoleteCodeBehindFiles Remove="Features\SendEmail.feature.cs" />
-  </ItemGroup>
-
-  <ItemGroup>
     <Compile Include="..\..\StyleCop\GlobalSuppressions.cs" Link="GlobalSuppressions.cs" />
   </ItemGroup>
 
