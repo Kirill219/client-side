@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Threading;
 using Castle.Core.Internal;
 using Kpi.UkrNet.ClientTests.Model.Domain.Login;
 using Kpi.UkrNet.ClientTests.Model.Platform.Drivers;
