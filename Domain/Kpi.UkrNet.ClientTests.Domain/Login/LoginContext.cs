@@ -14,13 +14,13 @@ namespace Kpi.UkrNet.ClientTests.Domain.Login
 
         public void OpenAndLogin (UserInformation user)
         {
-            _loginSteps.OpenLoginPage();
+            _loginSteps.OpenMainView();
             Login(user);
         }
 
         private void Login (UserInformation user)
         {
-            _loginSteps.SetEmail(user.Email);
+            _loginSteps.SetLogin(user.Login);
             _loginSteps.SetPassword(user.Password);
             _loginSteps.Login();
         }

@@ -2,13 +2,13 @@
 {
     public interface ILoginSteps
     {
-        void SetEmail (string email);
+        void SetLogin (string login);
 
         void SetPassword (string password);
 
         void Login ();
 
-        void OpenLoginPage ();
+        string GetErrorMessage ();
 
         void OpenMainView ();
     }

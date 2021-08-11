@@ -1,19 +1,21 @@
 ﻿using System;
 using Autofac;
 using Kpi.UkrNet.ClientTests.Domain.Login;
-using Kpi.UkrNet.ClientTests.Domain.Search;
+using Kpi.UkrNet.ClientTests.Model.Domain.Edisk;
 using Kpi.UkrNet.ClientTests.Model.Domain.Login;
-using Kpi.UkrNet.ClientTests.Model.Domain.Poduct;
-using Kpi.UkrNet.ClientTests.Model.Domain.Search;
+using Kpi.UkrNet.ClientTests.Model.Domain.OpenEdiskPage;
+using Kpi.UkrNet.ClientTests.Model.Domain.OpenEmailForm;
+using Kpi.UkrNet.ClientTests.Model.Domain.UserInfo;
 using Kpi.UkrNet.ClientTests.Model.Platform.Communication;
 using Kpi.UkrNet.ClientTests.Model.Platform.Drivers;
 using Kpi.UkrNet.ClientTests.Platform.Communication;
 using Kpi.UkrNet.ClientTests.Platform.Configuration.Environment;
 using Kpi.UkrNet.ClientTests.Platform.Configuration.Run;
 using Kpi.UkrNet.ClientTests.Platform.Driver;
+using Kpi.UkrNet.ClientTests.UI.Edisk;
 using Kpi.UkrNet.ClientTests.UI.Login;
-using Kpi.UkrNet.ClientTests.UI.Product;
-using Kpi.UkrNet.ClientTests.UI.Search;
+using Kpi.UkrNet.ClientTests.UI.MailBox;
+using Kpi.UkrNet.ClientTests.UI.UserInfo;
 using Microsoft.Extensions.Configuration;
 using RestSharp;
 using Serilog;
@@ -50,9 +52,10 @@ namespace Kpi.UkrNet.ClientTests.Bootstrap
             // Logic
             Builder.RegisterType<LoginContext>().As<ILoginContext>().SingleInstance();
             Builder.RegisterType<LoginSteps>().As<ILoginSteps>().SingleInstance();
-            Builder.RegisterType<SearchSteps>().As<ISearchSteps>().SingleInstance();
-            Builder.RegisterType<ProductTopSteps>().As<IProductTopSteps>().SingleInstance();
-            Builder.RegisterType<SearchContext>().As<ISearchContext>().SingleInstance();
+            Builder.RegisterType<UserInfoSteps>().As<IUserInfoSteps>().SingleInstance();
+            Builder.RegisterType<OpenEmailFormSteps>().As<IOpenEmailFormSteps>().SingleInstance();
+            Builder.RegisterType<EdiskSteps>().As<IEdiskSteps>().SingleInstance();
+            Builder.RegisterType<OpenEdiskPageSteps>().As<IOpenEdiskPageSteps>().SingleInstance();
 
             Builder.RegisterType<WebDriver>().As<IWebDriver>().SingleInstance();
         }

@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using Bogus;
 using Kpi.UkrNet.ClientTests.Model.Domain.Login;
 
@@ -6,15 +7,21 @@ namespace Kpi.UkrNet.ClientTests.TestsData.Storage
 {
     public static class UsersStorage
     {
-        public static Dictionary<string, UserInformation> Users => 
+        public static Dictionary<string, UserInformation> Users =>
             new Dictionary<string, UserInformation>
             {
-                { "ExistingUser", ExistingUser }
+                { "ValidUser", ValidUser },
+                { "InvalidUser", InvalidUser }
             };
 
-        private static UserInformation ExistingUser => 
+        private static UserInformation ValidUser =>
             new Faker<UserInformation>()
-                .RuleFor(u => u.Email, "dummy@rambler.ru")
-                .RuleFor(u => u.Password, "dummy");
+                .RuleFor(u => u.Login, "kirilich219@ukr.net")
+                .RuleFor(u => u.Password, "vk20011012");
+
+        private static UserInformation InvalidUser =>
+            new Faker<UserInformation>()
+                .RuleFor(u => u.Login, Guid.NewGuid().ToString)
+                .RuleFor(u => u.Password, Guid.NewGuid().ToString);
     }
 }
